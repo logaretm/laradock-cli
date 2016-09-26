@@ -5,6 +5,4 @@
 const shell = require('shelljs');
 const program = require('commander');
 
-program.action(function () {
-    shell.exec('cd ./laradock && docker-compose stop && cd ..');
-});
+shell.exec('cd ./laradock && docker-compose stop && cd ..');
