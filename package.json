@@ -1,0 +1,21 @@
+{
+  "name": "laradock-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "laradock": "index.js"
+  },
+  "keywords": [
+    "laradock",
+    "laradock-cli",
+    "laravel",
+    "docker"
+  ],
+  "author": "Abdelrahman Awad <logaretm1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "shelljs": "^0.7.4"
+  }
+}
