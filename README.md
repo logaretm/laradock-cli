@@ -6,6 +6,12 @@ This is useful for those who are used to Homestead and want a simple CLI interfa
 
 I integrated Laradock into my Laravel Projects because of the resources usage, and how fast you can bring containers up vs. virtual machines, but the usage was a bit annoying this cli tool exposes the basic actions you will probably use the most.
 
+### Installation
+
+```bash
+npm install -g laradock-cli
+```
+
 ### What does it do?
 
 **Note: All the following commands must run from within your laravel project root directory.**

@@ -1,7 +1,7 @@
 {
   "name": "laradock-cli",
   "version": "0.0.1",
-  "description": "",
+  "description": "Basic cli helper for Laradock",
   "main": "index.js",
   "bin": {
     "laradock": "index.js"
