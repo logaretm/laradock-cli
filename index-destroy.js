@@ -5,6 +5,8 @@
 const shell = require('shelljs');
 
 console.log('Removing containers...');
-shell.exec('cd ./laradock && docker-compose rm -f && cd ..');
+shell.cd('laradock');
+shell.exec('docker-compose rm -f');
+shell.cd('..');
 console.log('Removing Laradock...');
 shell.exec('git submodule deinit laradock && rm -rf laradock');

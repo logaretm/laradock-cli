@@ -13,7 +13,7 @@
     "docker"
   ],
   "author": "Abdelrahman Awad <logaretm1@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "commander": "^2.9.0",
     "shelljs": "^0.7.4"
