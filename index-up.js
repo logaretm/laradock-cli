@@ -5,5 +5,5 @@
 const shell = require('shelljs');
 
 shell.cd('laradock');
-console.log('Creating containers...');
+console.log('Starting containers...');
 shell.exec('docker-compose up -d nginx postgres mysql redis');
