@@ -5,6 +5,7 @@
 const WORKSPACE_CONTAINER_NAME = "workspace";
 
 const shell = require('shelljs');
+const chalk = require('chalk');
 
 if (~shell.env['OS'].indexOf('Windows')) {
     // Get Workspace container id.
@@ -20,7 +21,7 @@ if (~shell.env['OS'].indexOf('Windows')) {
     }
 
     if (code !== 0) {
-        console.log('Seems like we can\'t ssh into the workspace, run one of the following commands instead\n');
+        console.log(chalk.yellow('Seems like we can\'t ssh into the workspace, run one of the following commands instead:\n'));
         console.log(`docker exec -it ${output} bash`);
         console.log(`winpty docker exec -it ${output} bash`);
     }
