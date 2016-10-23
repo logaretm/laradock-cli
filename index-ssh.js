@@ -2,7 +2,7 @@
 
 'use strict';
 
-const WORKSPACE_CONTAINER_NAME = "workspace";
+const WORKSPACE_CONTAINER_NAME = 'workspace';
 
 const shell = require('shelljs');
 const chalk = require('chalk');
