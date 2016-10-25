@@ -1,6 +1,6 @@
 {
   "name": "laradock-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Basic cli helper for Laradock",
   "repository": "https://github.com/logaretm/laradock-cli",
   "main": "index.js",
