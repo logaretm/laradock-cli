@@ -5,6 +5,11 @@
   "repository": "https://github.com/logaretm/laradock-cli",
   "main": "index.js",
   "bin": {
+    "laradock-destroy": "index-destroy.js",
+    "laradock-halt": "index-halt.js",
+    "laradock-init": "index-init.js",
+    "laradock-ssh": "index-ssh.js",
+    "laradock-up": "index-up.js",
     "laradock": "index.js"
   },
   "keywords": [
