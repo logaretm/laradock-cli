@@ -1,10 +1,14 @@
-# laradock-cli
+# laradock-cli [deprecated]
 
 This is a basic node cli helper to help myself with [Laradock](https://github.com/LaraDock/laradock) usage.
 
 This is useful for those who are used to Homestead and want a simple CLI interface to use with Laradock, also for those who are new to docker like myself.
 
 I integrated Laradock into my Laravel Projects because of the resources usage, and how fast you can bring containers up vs. virtual machines, but the usage was a bit annoying this cli tool exposes the basic actions you will probably use the most.
+
+### Deprecation Notice
+
+This is now no longer updated, in favor for an [official one](https://github.com/laradock/cli).
 
 ### Installation
 
