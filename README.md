@@ -8,7 +8,7 @@ I integrated Laradock into my Laravel Projects because of the resources usage, a
 
 ### Deprecation Notice
 
-This is now no longer updated, in favor for an [official one](https://github.com/laradock/cli).
+This is now no longer updated, in favor for an [official one](https://github.com/laradock/cli). You may still use it if you find it helpful.
 
 ### Installation
 
